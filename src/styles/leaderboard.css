@@ -1,0 +1,38 @@
+.middl{
+    margin-top:60px;
+    margin-bottom:20px;
+    display:flex; 
+    color:#182C62;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .ldata{
+     
+      margin-left:40px;
+      margin-right:40px;
+      background-color:#E4EDF2;
+      border-color:#E4EDF2;
+      height:40px;
+      width:95%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display:flex;
+      justify-content:space-between;
+  }
+  
+  .lleftt{
+      margin-top:7px;
+      display:flex;
+      margin-left:1rem;
+      justify-content: space-between;
+      width:20%;
+  }
+  
+  .rright{
+      margin-top:7px;
+      margin-left:40rem;
+      display:flex;
+      justify-content:space-between;
+      margin-right:10rem;
+      width:39%;
+  }
