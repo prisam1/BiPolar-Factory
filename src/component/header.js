@@ -1,6 +1,6 @@
-import React ,{useState} from "react";
-import { Link, useNavigate } from 'react-router-dom'
-import { useSelector, useDispatch } from 'react-redux'
+import React from "react";
+import { Link} from 'react-router-dom'
+// import { useSelector, useDispatch } from 'react-redux'
 import Logoimg from "../Images/logo.svg";
 import Scheduleimg from "../Images/schedule.png";
 import Leaderboardimg from "../Images/leaderboard.png";
@@ -13,22 +13,23 @@ const Header = () => {
      
        <div className="header">   
 
-           <div className="left">
-           <img src={Logoimg} className="logoimg"/>
-                 
+        <div className="left">
+           <Link to="/" className="nav-link">
+                 <img src={Logoimg} className="logoimg"/>
+                 </Link>  
            </div> 
 
            <div className="link">
            <div className="first">
            <Link to="/Schedule" className="nav-link">
-                <img src={Scheduleimg} className="schimg"/>
+                <img src={Scheduleimg} className="schimg" alt="schlogo"/>
                 <div className="logotext">Schedule</div>
                 </Link>
            </div> 
            
            <div className="second">
            <Link to="/Leaderboard" className="nav-link">
-                <img src={Leaderboardimg} className="leadimg"/>
+                <img src={Leaderboardimg} className="leadimg" alt="leadlogo"/>
                 <div className="topright">Leaderboard</div>
             </Link>
            </div> 

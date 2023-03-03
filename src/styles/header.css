@@ -9,7 +9,7 @@
   
  .left { 
     display:flex;
-    color:#FFFFFF;
+    margin-left:40px;
  }
 
  .lefttext{
@@ -23,7 +23,7 @@
  .logoimg{
     height:40px;
     margin-top:9px;
-    margin-left:40px;  
+      
  }
 
 .link

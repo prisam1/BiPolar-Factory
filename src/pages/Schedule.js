@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/schedule.css"
-import {useState,useEffect} from "react"
+// import {useState,useEffect} from "react"
 import axios from "axios"
 
 const Schedule = () => {
@@ -27,6 +27,7 @@ const token = localStorage.getItem("token");
  }
 
   return (
+    <>
     <div className="Schedule">
   
       <h1 className="midd">League Schedule</h1>
@@ -44,6 +45,7 @@ const token = localStorage.getItem("token");
       </div>
    
     </div>
+    </>
   );
 
   }

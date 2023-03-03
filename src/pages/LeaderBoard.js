@@ -4,7 +4,7 @@ import "../styles/leaderboard.css"
 const Leaderboard = () => {
   
   return (
-    
+    <>
     <div className="standings">
   
     <h1 className="middl">League Standings</h1>
@@ -24,7 +24,7 @@ const Leaderboard = () => {
 
   </div>
 
-   
+  </> 
   );
 };
 

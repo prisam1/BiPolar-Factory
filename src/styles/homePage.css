@@ -1,5 +1,11 @@
 .main{
-font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top:60px;
+  margin-bottom:20px;
+  display:flex; 
+  color:#182C62;
+  align-items: center; 
+  justify-content: center;
 
 
 }
