@@ -35,3 +35,23 @@
     margin-right:22rem;
     width:24%;
 }
+
+.teamflag{
+    margin-top:16px;
+    display:flex; 
+    flex-direction:row;
+    font-size:16px;
+   
+}
+
+.home{   
+    margin-bottom:16px;
+    margin-left:49rem;
+    
+}
+
+.away{
+
+   margin-bottom:16px;
+   margin-left:10rem;
+}

@@ -36,3 +36,36 @@
       margin-right:10rem;
       width:39%;
   }
+
+  .team{
+    flex-direction:column;
+  }
+
+  .flags{
+    margin-top:8px; 
+  }
+
+  .imgflag
+  {
+   margin-top:8px;
+   margin-left:60px;
+   margin-bottom:8px;
+   height:37px;
+   width:53px;
+       
+  }
+
+  .hr{
+
+    margin-left:40px;
+    margin-right:40px;
+  }
+
+  .homeleft{
+    
+    height:55px;
+    width:100%; 
+    background-color:green;
+
+  }
+ 
